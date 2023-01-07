@@ -1,12 +1,12 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
     
         return (
             <div style={styles.nav}>
                 <div style={styles.cartIconCntainer}>
                     <img style={styles.cartIcon} src="https://t3.ftcdn.net/jpg/03/13/36/92/240_F_313369233_w50qr2zvY2wGOsV9suFcoifB1JRfZK5M.jpg" alt="cart-icon" />
-                    <span style={styles.cartCount}>3</span>
+                    <span style={styles.cartCount}>{props.count}</span>
                 </div>
             </div>
         )
