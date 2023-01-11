@@ -13,6 +13,7 @@ const Cart = (props) => {
                             onIncreaseQuantity={props.onIncreaseQuantity}
                             onDecreaseQuantity={props.onDecreaseQuantity}
                             onDeleteProduct={props.onDeleteProduct}
+                            // {...props}
                             />
                 })}
             </div>
